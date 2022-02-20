@@ -16,8 +16,10 @@ public class Main_1158 {
         for (int i = 1; i < n+1; i++) {
             queue.add(i);
         }
+
         int check = 1;
         bw.write("<");
+        
         while(!queue.isEmpty()) {
             if(check % k == 0) {
                 bw.write(queue.poll()+"");
