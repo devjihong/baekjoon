@@ -9,6 +9,7 @@ public class Main_10866 {
         int n = Integer.parseInt(br.readLine());
         Deque<Integer> deque = new LinkedList<>();
         int num = 0;
+        
         for (int i = 0; i < n; i++) {
             String command = br.readLine();
             String comName = command.split(" ")[0];
