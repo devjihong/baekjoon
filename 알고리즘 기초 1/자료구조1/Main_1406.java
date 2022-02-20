@@ -2,7 +2,7 @@
     1. 왼쪽스택, 오른쪽 스택 이용
     2. ListIterator 사용
 
-    #### 시간초과 ####
+    ###### 시간초과 ######
     1. index : 값을 변화시켜 커서 움직이면 O(n) -> n번 반복하면 O(n^2)
     2. scanner,prinln 이용하면 시간초과 -> BufferedReader, BufferedWriter(or StringBuilder) 이용 
 */
