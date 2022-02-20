@@ -21,9 +21,7 @@ public class Main_10845 {
                     break;
                 case "pop":
                     if(queue.isEmpty()) bw.write("-1\n");
-                    else {
-                        bw.write(queue.poll()+"\n");
-                    }
+                    else bw.write(queue.poll()+"\n");
                     break;
                 case "size":
                     bw.write(queue.size()+"\n");
